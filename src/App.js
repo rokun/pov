@@ -7,7 +7,7 @@ import NotFound from './component/NotFound'; // Import the NotFound component
 
 function App() {
     return (
-        <Router basename="/pov">
+        <Router basename="/pov">Hack
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/subpage1" element={<SubPage1 />} />
