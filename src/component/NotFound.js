@@ -4,15 +4,15 @@ import Header from './Header';
 import ContactForm from './ContactForm';
 import Footer from './Footer';
 
-function SubPage1() {
+function NotFound() {
   return (
     <div className='subpage'>
       <Header title="POV Self Serve Platform" />
-      
+
       <ContactForm />
       <Footer />
     </div>
   );
 }
 
-export default SubPage1;
+export default NotFound;
