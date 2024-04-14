@@ -7,7 +7,7 @@ import SubPage2 from './component/SubPage2';
 function App() {
   return (
     
-    <Router>
+    <Router >
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/subpage1" element={<SubPage1 />} />
